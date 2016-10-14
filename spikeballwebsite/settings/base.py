@@ -76,7 +76,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'djPsych.urls'
+ROOT_URLCONF = 'spikeballwebsite.urls'
 
 TEMPLATES = [
     {
@@ -95,7 +95,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djPsych.wsgi.application'
+WSGI_APPLICATION = 'spikeballwebsite.wsgi.application'
 
 
 
